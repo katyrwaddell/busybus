@@ -1,0 +1,82 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'source sans pro' sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #343E3D
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;  width: 100%;
+
+}
+
+nav {
+  margin: 0 auto;
+  padding: 10px 15px 15px 15px;
+  Background-color:#1DE8B5;
+  width: 100%;
+  font-size: 175%; /*28px;*/
+  font-weight:bold;
+  text-align: center;
+}
+
+
+.direction h2 {
+  font-size: 100%;
+  font-weight: bold;
+  padding: 5px 5px 15px 15px;
+  height: 26px;
+  background-color: #A6F8DF;
+}
+
+.bus:hover {background-color:#EFEFF4;
+}
+
+.bus {
+    margin: 0 auto;
+    padding: 15px 15px 15px 15px;
+    height: 44px;
+
+}
+
+.bus .destination {
+  width: 50%;
+  display: inline-block;
+  font-size: 87.5%;
+}
+.bus .line {
+
+  width: 10%;
+  display: inline-block;
+  font-weight:bold;
+
+}
+.bus .frequency {
+  width: 35%;
+  display: inline-block;
+  font-size: 80%;
+  text-align: right;
+}
+
+.content h1 {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.4em;
+
+}
+
+.arrow {
+  width:2%;
+  height: 4px;
+  display: inline-block;
+
+}
+
+.mid {
+  border-bottom: 2px solid #C8C7CC;
+}
